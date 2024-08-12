@@ -7,10 +7,10 @@ import { useNavigate } from "react-router-dom";
 
 export default function RegisterPage() {
   const { user, setUser } = useContext(AppContext);
-  const [name, setName] = useState("");
-  const [username, setUsername] = useState("");
-  const [email, setEmail] = useState("");
-  const [mobile, setMobile] = useState("");
+  const [name, setName] = useState(user?.name || "");
+  const [username, setUsername] = useState(user?.username || "");
+  const [email, setEmail] = useState(user?.email || "");
+  const [mobile, setMobile] = useState(user?.mobile || "");
   const [error, setError] = useState();
   const navigate = useNavigate();
 
