@@ -18,7 +18,7 @@ function ProfileWidget() {
 
 				<div className={styles.genres}>
 					{selectedGenres?.slice(0, 4)?.map((genre, index) => (
-						<div key={index} className={styles.pill}>
+						<div key={index} className={styles.genre}>
 							{genre}
 						</div>
 					))}

@@ -1,5 +1,3 @@
-
-
 const formatDateAndTime = (date = Date.now()) => {
     const newDate = new Date(date);
     const formattedDate = newDate.toLocaleTimeString("en-US", {
