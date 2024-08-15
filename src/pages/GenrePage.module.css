@@ -1,33 +1,31 @@
-.container{
+.container {
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
 }
 
-.left{
+.left {
     width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.right{
+.selectedGenres {}
+
+.selectedGenre {
+    cursor: pointer;
+}
+
+.right {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-.selectedGenres{  
-}
+.genres {}
 
-.selectedGenre{
-  cursor: pointer;  
-}
-
-.genres{
-    cursor: pointer;  
-}
-
-.genre{
+.genre {
+    cursor: pointer;
 }

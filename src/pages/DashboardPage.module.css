@@ -27,3 +27,19 @@
 .newsWidget {
     grid-area: 1 / 3 / 6 / 4;
 }
+
+.browse{
+    margin-top: 50px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background-color: #148A08;
+    font-family: DM Sans;
+font-size: 23.53px;
+font-weight: 500;
+line-height: 21.69px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+
+}
