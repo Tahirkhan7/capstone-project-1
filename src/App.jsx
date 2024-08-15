@@ -4,6 +4,7 @@ import NotFound from "./pages/NotFound";
 import HomePage from "./pages/HomePage";
 import GenrePage from "./pages/GenrePage";
 import CarouselPage from "./pages/CarouselPage";
+import DashboardPage from "./pages/DashboardPage";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/genres" element={<GenrePage />} />
           <Route path="/carousel" element={<CarouselPage />} />
-          <Route path="/dashboard" element={<RegisterPage />} />
+          <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/movies" element={<RegisterPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
