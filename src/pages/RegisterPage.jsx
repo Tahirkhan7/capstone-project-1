@@ -22,7 +22,7 @@ export default function RegisterPage() {
     }
     setError(null);
     setUser({name, username, email, mobile});
-    navigate('/genre');
+    navigate('/genres');
   }
 
   return (
