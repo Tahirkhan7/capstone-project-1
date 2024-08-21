@@ -6,9 +6,15 @@ import styles from "./CarouselPage.module.css";
 export default function CarouselPage() {
   return (
     <div className={styles.container}>
-      <div className={styles.profileWidget}><ProfileWidget /></div>
-      <div className={styles.weatherWidget}><WeatherWidget /></div>
-      <div className={styles.newsWidget}><NewsWidget /></div>
+      <div className={styles.profileWidget}>
+        <ProfileWidget />
+      </div>
+      <div className={styles.weatherWidget}>
+        <WeatherWidget />
+      </div>
+      <div className={styles.newsWidget}>
+        <NewsWidget />
+      </div>
     </div>
   );
 }
